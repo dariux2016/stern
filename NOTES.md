@@ -1,5 +1,6 @@
 Tried on windows
 - installed via "winget install stern.stern"
+- logged on Openshift via "oc login ..."
 - command line example
 
 stern . --namespace 'ns-1,ns-2,ns-3' --init-containers false --exclude-pod micrometrics --tail 10
